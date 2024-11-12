@@ -1,0 +1,16 @@
+### GET
+# curl http://localhost:11434/api/generate -d '{
+#  "model": "llama3.2",
+#  "prompt": "Why is the sky blue?",
+#  "stream": false
+#}'
+POST http://localhost:11434/api/generate
+Content-Type: application/json
+
+{
+  "model": "llama3.2",
+  "prompt": "Why is the sky blue?",
+  "stream": false
+}
+
+###

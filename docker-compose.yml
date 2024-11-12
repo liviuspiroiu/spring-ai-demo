@@ -1,0 +1,9 @@
+services:
+  database:
+    image: 'pgvector/pgvector:0.7.4-pg17'
+    ports:
+      - '5432:5432'
+    environment:
+      - 'POSTGRES_USER=myuser'
+      - 'POSTGRES_DB=mydatabase'
+      - 'POSTGRES_PASSWORD=secret'

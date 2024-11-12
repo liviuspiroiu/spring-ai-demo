@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "ai.demo.demoai.init-documents",
+      "type": "java.lang.String",
+      "description": "Change to true if you need to index files."
+    },
+    {
+      "name": "ai.demo.demoai.data-folder",
+      "type": "java.lang.String",
+      "description": "Path to documents."
+    },
+    {
+      "name": "ai.demo.demoai.init-metadata",
+      "type": "java.lang.String",
+      "description": "Change to true if you need to index metadata."
+    }
+  ]
+}
