@@ -24,6 +24,7 @@
     
     
 ## Introduction to AI
+![Intro to AI image](intr-to-ai.png)
 
     First it is very important to understand that Artificial Intelligence like Physics for example 
     is an entire field of study.  Then you have Machine Learning as a subfield the same way you have 
@@ -74,6 +75,7 @@
 
 
 ## Virtual Threads
+![Virtual threads image](virtual-threads.png)
 
     1. Platform Threads: These are the traditional threads in Java, managed by the operating system (OS). 
     Platform threads are backed by OS threads, meaning the OS handles their scheduling, execution, 
