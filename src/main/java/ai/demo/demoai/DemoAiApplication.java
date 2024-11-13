@@ -70,6 +70,7 @@ public class DemoAiApplication {
 //            var userMessage = new UserMessage(question);
 //
 //            var prompt = new Prompt(List.of(systemMessage, userMessage));
+//            var prompt = new Prompt(List.of(systemMessage, userMessage));
 
             var prompt = new Prompt(question);
 
